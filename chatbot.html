@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+</head>
+<body>
+    <div class="layout" id="layout">
+        <div class="utyped" id="utyped"></div>
+        <div class="chatbox" id="chatbox">냐앙</div>
+        <div class="cat"><img class="img-cat" src="https://cdn.pixabay.com/photo/2013/07/12/17/17/kitty-151949_960_720.png" alt="cat"></div>
+        <div class="input-chat">
+            <input class="input-box" id="console" type="text" placeholder="입력하세요">
+            <button onclick="checkText()" class="input-btn">시키기</button>
+        </div>
+        <button class="hint" id="hint">명령어</button>    
+    </div>
+    <div class="invisible_box" id="inv_box"></div>
+    <script src="chatbot.js"></script>
+</body>
+</html>
